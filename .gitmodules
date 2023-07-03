@@ -1,0 +1,6 @@
+[submodule "corvus-app"]
+	path = corvus-app
+	url = https://github.com/DewBaunchee/corvus-app
+[submodule "app"]
+	path = app
+	url = https://github.com/DewBaunchee/corvus-app

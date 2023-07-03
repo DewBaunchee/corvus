@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "values": {
+    "value": {
+      "type": "plain",
+      "value": 1
+    },
+    "author": {
+      "type": "object",
+      "values": {
+        "firstName": {
+          "type": "plain",
+          "value": "Матвей"
+        },
+        "lastName": {
+          "type": "plain",
+          "value": "Воривода"
+        },
+        "birthyear": {
+          "type": "plain",
+          "value": 2002
+        },
+        "birthplace": {
+          "type": "object",
+          "values": {
+            "country": {
+              "type": "plain",
+              "value": "Беларусь"
+            },
+            "region": {
+              "type": "plain",
+              "value": "Минская область"
+            },
+            "town": {
+              "type": "plain",
+              "value": "Старобин"
+            }
+          }
+        }
+      }
+    }
+  }
+}
